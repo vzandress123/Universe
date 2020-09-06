@@ -1,0 +1,41 @@
+h1{
+    Font-weight: bold;
+    Color:#6166A2  ;
+
+}
+
+.tamaño{
+    font-size: 24px;
+}
+
+.encabezado{
+    Color:#999FEB  ;
+
+}
+
+.parrafo1{
+    Font-family: “Century Gothic”;
+    Font-weight: italic;
+    Color:#8F7DB7 ;
+
+}
+
+.footer{
+
+    text-align:center;
+    background-color:#341A70 ;
+}
+
+.parrafo2{
+    Font-family: “Franklin Gothic Medium”;
+    Font-weight: lighter;
+    Color:#430ead ;
+}
+
+.parrafo3{
+    Font-family: "Comic Sans MS";
+    font-weight: inherit;
+    color:#6F0691 ;
+    
+
+}
