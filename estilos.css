@@ -39,3 +39,37 @@ h1{
     
 
 }
+
+
+
+html {
+    background: url(img/universef.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+#navegador ul{
+list-style: none;
+text-align: center;
+}
+#navegador li{
+    display: inline;
+    text-align: center;
+    margin: 0 10px 0 0;
+}
+#navegador li a{
+    padding: 2px 7px 2px 7px;
+    color:#17010E;
+    background-color: #AB4EC9;
+    border: 1px solid rgb(240, 152, 225);
+    text-decoration: none;
+}
+
+#declaracion{
+    font-size: 24px;
+
+
+}
