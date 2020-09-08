@@ -1,45 +1,91 @@
 h1{
     Font-weight: bold;
-    Color:#6166A2  ;
+    Color:#0f0209  ;
+    font-size: 40px;
+
+    
 
 }
 
-.tamaño{
+#navegador{
+    list-style: none;
+    text-align: center;
+    }
+    #navegador li{
+        display: inline;
+        text-align: center;
+        margin: 0 60px 0 0;
+    }
+    #navegador li {
+        padding: 10px 20px 10px 20px;
+        color:#000000;
+        background-color: #AB4EC9;
+        border: 1px solid rgb(240, 152, 225);
+        text-decoration: none;
+    }
+    
+
+.universe{
+    
+    font-size: 35px;
+}
+
+.p1{
     font-size: 24px;
+    Font-family:cursive;
+    
 }
 
-.encabezado{
-    Color:#999FEB  ;
 
-}
-
-.parrafo1{
+.p1h2{
     Font-family: “Century Gothic”;
-    Font-weight: italic;
-    Color:#4d083b ;
+    Color:#000000;
+    Font-weight: bold;
+    font-size: 28px;
+
+}
+
+.p2h2{
+    Font-family: “Century Gothic”;
+    Color:#000000;
+    Font-weight: bold;
+    font-size: 28px;
+
+}
+
+.p1p1{
+    
+    Font-family: “Century Gothic”;
+    Font-weight:bold;
+    Color:#000000 ;
     font-size: 24px;
 
 
+}
+
+.p2p2{
+    
+    Font-family: “Century Gothic”;
+    Font-weight:bold;
+    Color:#000000 ;
+    font-size: 24px;
 }
 
 .footer{
-
+    Font-family:fantasy;
     text-align:center;
-    background-color:#341A70 ;
+    background-color:gba(255,0,0,0.2) ;
+    font-size: 25px;
+    
 }
 
-.parrafo2{
-    Font-family: “Franklin Gothic Medium”;
-    Font-weight: lighter;
-    Color:#430ead ;
-    font-size: 24px;
 
-}
 
-.parrafo3{
-    Font-family: "Comic Sans MS";
-    font-weight: inherit;
-    color:#6F0691 ;
+.p3p2{
+    Font-family:"Century Gothic" ;
+    color:#0a030c ;
+    font-size: 20px;
+    Font-weight: italic;
     
 
 }
@@ -47,7 +93,7 @@ h1{
 
 
 html {
-    background: url(img/universef.jpg) no-repeat center center fixed;
+    background: url(img/universo3.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -55,25 +101,31 @@ html {
 }
 
 
-#navegador ul{
-list-style: none;
-text-align: center;
-}
-#navegador li{
-    display: inline;
-    text-align: center;
-    margin: 0 10px 0 0;
-}
-#navegador li a{
-    padding: 2px 7px 2px 7px;
-    color:#17010E;
-    background-color: #AB4EC9;
-    border: 1px solid rgb(240, 152, 225);
-    text-decoration: none;
-}
 
 #declaracion{
     font-size: 24px;
 
+
+}
+
+.ima1{
+    margin:10px auto;
+    display:block;
+}
+
+.ima2{
+    margin:10px auto;
+    display:block;
+}
+
+.ima3{
+    margin:10px auto;
+    display:block;
+}
+
+
+.video{
+    margin:10px auto;
+    display:block;
 
 }
