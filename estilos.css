@@ -16,7 +16,9 @@ h1{
 .parrafo1{
     Font-family: “Century Gothic”;
     Font-weight: italic;
-    Color:#8F7DB7 ;
+    Color:#4d083b ;
+    font-size: 24px;
+
 
 }
 
@@ -30,6 +32,8 @@ h1{
     Font-family: “Franklin Gothic Medium”;
     Font-weight: lighter;
     Color:#430ead ;
+    font-size: 24px;
+
 }
 
 .parrafo3{
