@@ -4,52 +4,130 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
     <title>pagina2</title>
 </head>
 <body>
     <header>
-        <h1>
-             
-            system solar planets
-        </h1>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top"> 
+            <h1 class="navbar-brand" >The universe.com</h1> 
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> 
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent"> <!--de presentacion en la vista mobil-->
+              <ul class="navbar-nav mr-auto"> <!--lista de opciones donde tenemos los distinton enlaces-->
+
+                <li class="nav-item "> <!--Listado con la clase active resalta a home, para que cuando el cursor este encima de home se resalte-->
+                  <a class="nav-link" href="index.html">Home <!--<span class="sr-only">(current)</span>--></a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="pagina1.html">pagina1</a> <!--item y link hace direccionamienot al enlace que deseamos-->
+                </li>
+
+                <li class="nav-item active">
+                    <a class="nav-link" href="pagina2.html">pagina2</a> <!--item y link hace direccionamienot al enlace que deseamos-->
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link" href="registro.html">registro</a> <!--item y link hace direccionamienot al enlace que deseamos-->
+                  </li>
+              
+              </ul>
+              
+            </div>
+          </nav>
+
+    
+        <hr>                      
     </header>
 
         <hr>
 
     <main>
-        <img src="img/solarSystemPlanets.jpg" alt="solarSystemPlanets" class="ima3">
+        <div class="container">
 
-        <h2 class="p2h2">Solar System Planets: Order of the 8 (or 9) Planets. </h2>
+            <div class="row justify-content-center">
 
-            <p class="p2p2">Ever since the discovery of Pluto in 1930, kids grew up learning that the solar system has nine planets. That all changed in the late 1990s, when astronomers started arguing about whether Pluto was indeed a planet. In a highly controversial decision, the International Astronomical Union ultimately decided in 2006 to designate Pluto as a "dwarf planet," reducing the list of the solar system's true planets to just eight.</p> 
+                <div class="col-8 col-md-6" >
+                     <img src="img/solarSystemPlanets.jpg" alt="solarSystemPlanets"class="img-fluid w-100 mt-5" >
 
-               <p class="p2p2"> Astronomers, however, are still hunting for another possible planet in our solar system, a true ninth planet, after mathematical evidence of its existence was revealed on Jan. 20, 2016. The alleged "Planet Nine," also called "Planet X," is believed to be about 10 times the mass of Earth and 5,000 times the mass of Pluto.  </p> 
+                </div>
+            </div>
+        </div>              
 
-               <p class="p2p2">
-                The order of the planets in the solar system, starting nearest the sun and working outward is the following: Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, Neptune and then the possible Planet Nine.
+        
+            <hr> 
+               <div class="container">
+                <div class="row justify-content-center">
+    
+                    <div class="col-12 col-md-6" > <!--columna, dentro de las col van etiquetas, tamaño de columna col-1 en este caso,-->
+                        <h3 >Solar System Planets: Order of the 8 (or 9) Planets. </h3>
+                        <p class="text-justify">Ever since the discovery of Pluto in 1930, kids grew up learning that the solar system has nine planets. That all changed in the late 1990s, when astronomers started arguing about whether Pluto was indeed a planet. In a highly controversial decision, the International Astronomical Union ultimately decided in 2006 to designate Pluto as a "dwarf planet," reducing the list of the solar system's true planets to just eight.</p> 
 
-                If you insist on including Pluto, it would come after Neptune on the list. Pluto is truly way out there, and on a wildly tilted, elliptical orbit (two of the several reasons it was demoted). 
-               </p>
+                        <p class="text-justify"> Astronomers, however, are still hunting for another possible planet in our solar system, a true ninth planet, after mathematical evidence of its existence was revealed on Jan. 20, 2016. The alleged "Planet Nine," also called "Planet X," is believed to be about 10 times the mass of Earth and 5,000 times the mass of Pluto.  </p> 
+         
+                        <p class="text-justify">
+                         The order of the planets in the solar system, starting nearest the sun and working outward is the following: Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, Neptune and then the possible Planet Nine.
+         
+                         If you insist on including Pluto, it would come after Neptune on the list. Pluto is truly way out there, and on a wildly tilted, elliptical orbit (two of the several reasons it was demoted). 
+                        </p> </p>
+    
+                       
+                        <audio src="img/solarSong.mp3" controls class="w-100"></audio>
+                        <p class="text-justify">
+                            <strong> The Planet Song for Kids</strong> 
+             
+                             <p class="text-justify">
+                                <strong>Learn about the 8 planets of our solar system with the planet song for kids by Kids Learning Tube!  </strong> 
+                             </p>
+                            </p>
+             
 
-               <audio src="img/solarSong.mp3"controls></audio>
+                       </div>
+    
+                    <div class="col-12 col-md-6"> 
+                        <h3 class="color">  Our planetary system is located in an outer spiral arm of the Milky Way galaxy.</h3>
+                        <p class="text-justify"> Our solar system consists of our star, the Sun, and everything bound to it by gravity — the planets Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus and Neptune, dwarf planets such as Pluto, dozens of moons and millions of asteroids, comets and meteoroids. Beyond our own solar system, we have discovered thousands of planetary systems orbiting other stars in the Milky Way. </p>
+                          
+                          <img src="img/descarga.jpg" alt="img1" class="img-fluid w-100">
+                        
+                        
+                    </div>
+    
+                </div>
+    
+              </div>
 
-               <p class="p3p2">
-               <strong> The Planet Song for Kids</strong> 
+              
 
-                <p class="p3p2">
-                   <strong>Learn about the 8 planets of our solar system with the planet song for kids by Kids Learning Tube!  </strong> 
-                </p>
-               </p>
-
+              
 
     </main>
+    <hr>
+    <footer class="bg-dark text-center text-white">
+        <div class="container">
+            <div class="row justify-content-center">
 
-    <footer class="footer">
-        <hr> 
-        <p> Carlos Vasquez</p>
-        <p>@ 2020 Medellin - Colombia.</p>
-        <p> TODOS LOS DERECHOS RESERVADOS. </p>
+                <div class="col-12 col-md-6" > 
+                  <p> Carlos Vasquez</p>
+                  <p>@ 2020 Medellin - Colombia.</p>
+                  <p> TODOS LOS DERECHOS RESERVADOS. </p>
+                   </div>
+
+                   <div class="col-12 col-md-6  mt-5 w-100">
+                    <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button " data-show-count="false">Tweet</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8" ></script>
+                    
+                </div>
+
+            </div>
+
+          </div>
     </footer>
-    
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 </body>
 </html>
